@@ -1,0 +1,61 @@
+body {
+    background-image: url("assets/images/light-grey-terrazzo.png");
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.topHeader {
+    position: static;
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    border-bottom: solid;
+    border-color: #cccccc;
+
+}
+
+#headerName {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #4aaaa5;
+}
+
+#name {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav {
+    float: right;
+}
+
+#aboutme {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mainContent {
+    position: relaive;
+    display: inline-block;
+    width: 960px;
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+#myPhoto {
+    float: left;
+
+}
