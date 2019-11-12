@@ -1,15 +1,23 @@
+html, body {
+    height: 100%;
+}
+
 body {
     background-image: url("/assets/images/light-grey-terrazzo.png");
     background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .wrapper {
     width: 100%;
     margin: 0;
+    flex: 1 0 auto;
+
 }
 
 .topHeader {
@@ -31,13 +39,14 @@ body {
     width: 300px;
     height: 50px;
     padding: 10px;
-    margin: 50px 10px 0 10px;
+    margin: 30px 10px 0 150px;
     background-color: #4aaaa5;
 }
 
 #name {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+  
 }
 
 .nav {
@@ -48,7 +57,7 @@ body {
 }
 
 a:link, a:visited {
-    color: #666666;
+    color: #cccccc;
     text-decoration: none;
 }
 
@@ -56,20 +65,35 @@ a:hover, a:active {
     color: #4aaaa5;
 }
 
-#aboutme {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .mainContent {
     position: relative;
     display: inline-block;
     width: 960px;
     padding: 10px;
-    margin: 20px;
-    border-style: solid;
-    border-color: #dddddd;
+    margin: 20px 150px 20px 150px;
+    border: solid 2px #cccccc;
     background-color: #ffffff;
+}
+
+#mainContentHeader {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#hrMainContent {
+    border-width: 1px;
+    border-color: #cccccc;
+}
+
+#contentSection {
+    position: relative;
+    display: inline-block;
+    width: 900px;
+    padding: 20px;
+    margin: 20px;
+    border-top: solid 2px #cccccc;
+    background-color: #ffffff;
+
 }
 
 #myPhoto {
@@ -83,9 +107,9 @@ a:hover, a:active {
     position: sticky;
     width: 100%;
     height: 50px;
+    flex-shrink: 0;
     background-color: #666666;
-    border-top: solid;
-    border-color: #4aaaa5;
+    border-top: solid 8px #4aaaa5;
     text-align: center;
     color: #cccccc;
 }
