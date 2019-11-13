@@ -57,7 +57,7 @@ body {
 }
 
 a:link, a:visited {
-    color: #cccccc;
+    color: #777777;
     text-decoration: none;
 }
 
@@ -78,6 +78,7 @@ a:hover, a:active {
 #mainContentHeader {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 20px 0 20px;
 }
 
 #hrMainContent {
