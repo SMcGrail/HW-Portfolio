@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    background-image: url("/assets/images/light-grey-terrazzo.png");
+    background-image: url("file:///C:/Users/critt/Homework/HW-Portfolio/assets/images/beige-tiles.png");
     background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
@@ -101,6 +101,7 @@ a:hover, a:active {
     float: left;
     height: 200px;
     width: auto;
+    padding: 0 10px 0 0;
 
 }
 
