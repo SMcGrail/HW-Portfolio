@@ -146,7 +146,16 @@ a:hover, a:active {
 }
 
 /*Contact page elements*/
-
+.submitButton {
+    background-color: #3d0547;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 9px;
+}
+.submitButton:hover {
+    background-color: #666666;
+}
 
 /*main footer*/
 .footer {
