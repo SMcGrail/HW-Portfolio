@@ -4,6 +4,7 @@ html, body {
 
 body {
     background-image: url("/assets/images/beige-tiles.png");
+    /* background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/beige-tiles.png"); */
     background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
@@ -42,6 +43,7 @@ body {
     padding: 10px;
     margin: 30px 10px 0 150px;
     background-color: #4aaaa5;
+    /* text-shadow: 2px 2px #666666; */
 }
 
 #name {
@@ -82,6 +84,7 @@ a:hover, a:active {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0 20px 0 20px;
+    /* text-shadow: 1px 1px #666666; */
 }
 
 #hrMainContent {
@@ -111,7 +114,8 @@ a:hover, a:active {
 /*portfolio thmbnail images*/
 .projectLink {
     position: relative;
-    float: left;
+    display: inline-block;
+    /* float: left; (this works the same)*/
     width: 150px;
     height: 150px;
     text-align: center;
@@ -129,6 +133,7 @@ a:hover, a:active {
     margin: 0;
     background-color: #4aaaa5;
     color: #cccccc;
+    font-weight: bold;
 }
 
 .projectText:link, .projectText:visited {
