@@ -3,8 +3,8 @@ html, body {
 }
 
 body {
-    background-image: url("/assets/images/beige-tiles.png");
-    /* background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/beige-tiles.png"); */
+    /* background-image: url("/assets/images/prism.png"); */
+    background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/prism.png");
     background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
@@ -30,7 +30,7 @@ body {
     padding-top: 0;
     margin: 0;
     border-bottom: solid;
-    border-color: #cccccc;
+    border-color:#3d0547;
     background-color: #ffffff;
 
 }
@@ -42,7 +42,7 @@ body {
     height: 50px;
     padding: 10px;
     margin: 30px 10px 0 150px;
-    background-color: #4aaaa5;
+    background-color: #3d0547;
     /* text-shadow: 2px 2px #666666; */
 }
 
@@ -66,7 +66,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    color: #4aaaa5;
+    color: #3d0547;
 }
 
 /*Content window*/
@@ -81,7 +81,7 @@ a:hover, a:active {
 }
 
 #mainContentHeader {
-    color: #4aaaa5;
+    color: #3d0547;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0 20px 0 20px;
     /* text-shadow: 1px 1px #666666; */
@@ -131,13 +131,13 @@ a:hover, a:active {
     width: 140px;
     padding: 10px 10px 10px 0;
     margin: 0;
-    background-color: #4aaaa5;
+    background-color: #3d0547;
     color: #ffffff;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .projectText:link, .projectText:visited {
-    background-color: #4aaaa5;
+    background-color: #3d0547;
     text-decoration: none;
 }
 
@@ -155,7 +155,7 @@ a:hover, a:active {
     height: 50px;
     flex-shrink: 0;
     background-color: #666666;
-    border-top: solid 8px #4aaaa5;
+    border-top: solid 8px #3d0547;
     text-align: center;
     font-size: 12px;
     color: #cccccc;
